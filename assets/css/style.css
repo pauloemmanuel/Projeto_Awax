@@ -137,21 +137,7 @@ display: flex;
     margin-top: 20px;
 }
 
-.banner a{
 
-    display: block;
-    padding:10px 30px;
-    background-color: #b28756;
-    color:white;
-    text-transform: uppercase;
-    font-size: 12px;
-    font-weight: 600;
-    text-decoration: none;
-    border-radius: 20px 20px;
-    margin-top: 30px;
-    
-
-}
 
 .banner .sliders-pointers{
     width: 100vw;
@@ -179,8 +165,6 @@ display: flex;
 }
 
 .default{
-
-    
     padding-top:50px;
     padding-bottom: 50px;
 }
@@ -205,22 +189,114 @@ font-size: 20px;
   
     max-width: 1140px;
     margin: auto;
-    min-height: 100px;
-    background-color: grey;
+  
 }
 
 .default.light{
     background-color: #F7F7F7;
 }
 
-.default.light .section-title{
+.default.light .section-title,
+.default.light .section-body{
     color:black;
 }
+
+
 
 .default.dark{
     background-color: black;
 }
 
-.default.dark .section-title{
+.default.dark .section-title,
+.default.dark .section-body{
     color:white;
 }
+
+.button{
+
+    display: inline-block;
+    padding:10px 30px;
+    background-color: #b28756;
+    color:white;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 20px 20px;
+    margin-top: 30px;
+    
+
+}
+
+/* CSS ESPECÍFICOS*/
+
+
+.section-aboutus{
+display: flex;
+}
+
+.section-aboutus--left{
+flex:1;
+
+}
+.section-aboutus--left p {
+    line-height: 25px;
+    font-size: 14px;
+    font-weight: normal;
+
+}
+.section-aboutus--right{
+    width: 520px;
+    text-align: center;
+    
+    
+}
+
+.section-aboutus--right img{
+    width: 480px;
+    box-shadow: 0px 5px 10px #333;
+}
+
+
+
+
+.section-services{
+    display: flex;
+  
+}
+.section-service{
+    flex:1;
+    text-align: center;
+    border-right:1px solid #333 ;
+
+ 
+    
+}
+.section-service:first-child{
+    border-left: 1px solid #333;
+}
+.section-service h4{
+    margin-top:20px;
+    text-transform: uppercase;
+    font-size: 18px;
+
+}
+
+
+
+.section-service p{
+    margin-top:10px;
+    font-size: 13px;
+    color: #999;
+
+}
+
+.section-service:first-child img{
+    margin-bottom: 9px;
+}
+
+.section-projects {
+
+}
+
+.sections-
