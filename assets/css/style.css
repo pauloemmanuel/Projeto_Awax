@@ -410,6 +410,7 @@ padding-bottom: 0px;
     overflow: hidden;
     max-width: 880px;
     margin: auto;
+   
 }
 
 .section-team .sliders{
@@ -427,7 +428,7 @@ display: flex;
  background-color: #fff;
  margin-right: 20px;
  min-height: 300px;
- border-radius: 50%;
+
 
 }
 
@@ -436,17 +437,16 @@ display: flex;
     display: flex;
     height: 100%;
     align-items: center;
-    color: white;
+    color: black;
     justify-content: center;
     flex-direction: column;
+    padding: 30px;
 }
 
 
 .section-team-area .sliders-pointers{
     margin-top: 30px;
     height: 20px;
-
- 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -465,3 +465,99 @@ display: flex;
 .section-team-area .pointer.active{
     background-color: #b28756;
 }
+
+.section-team--avatar{
+    width: 150px;
+    height: auto;
+
+}
+.section-team--name{
+text-transform: uppercase;
+font-weight: 600;
+font-size: 17px;
+margin-top: 30px;
+}
+
+.section-team--role{
+font-size: 14px;
+color:#999;
+margin-top: 5px;
+}
+.section-team--social{
+display: flex;
+margin-top: 20px;
+}
+
+.section-team--social a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin:0px 5px;
+}
+
+.section-team--social a:hover{
+ 
+    background-color: #b28756;
+  
+}
+
+/* Praticar */
+
+/* Seção de Feed-back */
+
+.section-reviews{
+margin: auto;
+overflow: hidden;
+max-width: 700px;
+
+
+
+}
+.section-reviews .sliders{
+    width: 300vw;
+    height: 100%;
+    
+    display: flex;
+}
+.section-review{
+  max-width: 700px;
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+}
+.section-review--avatar{
+width: 150px;
+height: auto;
+
+}
+
+/* Fim Feed-back */
+
+
+/* slides */
+.section-reviews .sliders-pointers{
+    margin-top: 30px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-reviews .pointer{
+    width: 15px;
+    height: 15px;
+    border:2px solid #b28756;
+    margin: 0px 10px;
+   
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.section-reviews .pointer.active{
+    background-color: #b28756;
+}
+
+/* fim slides */
