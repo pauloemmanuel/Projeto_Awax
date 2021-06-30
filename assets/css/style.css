@@ -527,7 +527,15 @@ max-width: 700px;
   max-width: 700px;
   width: 100%;
   display: inline-flex;
-  justify-content: center;
+ align-items: center;
+  flex-direction: column;
+  text-align: center;
+
+}
+
+.section-review p{
+    margin-top: 10px;
+    font-size: 12px;
 }
 .section-review--avatar{
 width: 150px;
@@ -535,7 +543,24 @@ height: auto;
 
 }
 
-/* Fim Feed-back */
+.section-review--title{
+    margin-top: 15px;
+    font-weight:bolder;
+    font-size: 18px;
+}
+
+.section-review--role{
+    margin-top: 5px;
+    font-weight: 600;
+    font-size: 14px;
+}
+.section-review--hangout{
+
+    margin-top: 30px;
+    width: 20px;
+    height: auto;
+}
+
 
 
 /* slides */
@@ -561,3 +586,188 @@ height: auto;
 }
 
 /* fim slides */
+
+/* Fim Feed-back */
+
+/* Patrocinadores */
+
+.default.white{
+    border-top: 1px solid #CCC;
+    border-bottom: 1px solid #CCC;
+ 
+}
+.section-partners{
+    display: flex;
+   justify-content: center;
+}
+
+.section-partners img{
+    margin:0px 45px;
+    width: auto;
+    height: 60px;
+}
+/* Fim Patrocinadores */
+
+/* Começo Preços */
+
+.section-price{
+    display: flex;
+    margin:auto;
+    height: fit-content;
+}
+
+.section-price--div{
+background-color: white;
+flex:1;
+height: fit-content;
+margin:10px 10px;
+padding: 0px 20px;
+border: 4px solid transparent;
+border-radius: 5px;
+text-align: center;
+font-size: 1rem;
+font-weight: 600;
+padding-top: 20px;
+font-family: 'Montserrat',Arial, Helvetica, sans-serif;
+
+}
+
+
+
+.section-price--price{
+    padding-top: 10px;
+    font-weight: 800;
+    font-size: 1.7rem;
+}
+
+.section-price--month{
+    color:#ccc;
+    font-size: 0.8rem;
+}
+
+.section-price-desc{
+ margin-top: 15px;
+ font-size: 0.8rem;
+}
+.section-price-desc p{
+    margin-top: 10px;
+}
+
+.section-price--div a{
+    padding: 15px 40px;
+    font-size: 14px;
+    background-color: black;
+    margin-top: 20px;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    border-radius: 20px 20px;
+}
+
+.section-price--div a:hover{
+    background-color: #b28756;
+}
+
+/* Fim  Preços */
+
+/* Começo Produtos */
+.section-products{
+    display: flex;
+    justify-content: center;
+   
+    padding-bottom: 40px;
+    overflow: hidden;
+    width: 300vw;
+}
+
+.section-products .slide{
+    width: 100%;
+    display: flex;
+}   
+.section-product.first {
+flex:2;
+align-self: center;
+
+
+}
+.section-product.first img{
+  width:500px;
+  height: auto;
+  margin-left: 30px;
+
+    }
+.section-product.second{
+flex:3;
+}
+
+.section-product-desc{
+    display: flex;
+    margin-top: 2rem;
+    
+}
+.section-product-desc img{
+    margin-right: 20px;
+    margin-top:0.2rem;
+    
+  
+    width: auto;
+    height: auto;
+    align-self: flex-start;
+
+}
+.section-product-desc--txt{
+ 
+   
+    text-transform: uppercase;
+    
+}
+.section-product-desc--txt h3{
+    font-size: 1.2rem;
+    font-weight: 900;
+    line-height: 2rem;
+}
+.section-product-desc--txt h4{
+    font-size: 0.8rem;
+    text-transform: capitalize;
+    color: #CCC;
+    font-weight:500;
+    line-height: 1.5rem;
+}
+
+.products .sliders-pointers{
+    border-top: 1px solid #CCC;
+    width: 100%;
+    height: 20px;
+padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.products .pointer{
+    width: 15px;
+    height: 15px;
+    border:2px solid #b28756;
+    margin: 0px 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.products .pointer.active{
+    background-color: #b28756;
+}
+
+.button-products{
+    display: flex;
+    justify-content: center;
+}
+
+/* Fim Produtos */
+
+/* Começo Dados */
+
+
+
+
+/* Fim Dados */
