@@ -766,8 +766,133 @@ padding-top: 40px;
 /* Fim Produtos */
 
 /* Começo Dados */
+.section-facts{
+    display: flex;
+    
+}
+.section-fact{
+    flex:1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+.section-fact h4{
+    margin-top:20px;
+    text-transform: uppercase;
+    font-size: 18px;
+    width: 100%;
+}
+.section-fact h3{
+   color: #b28756;
+   font-weight: 900;
+   font-size: 3rem;
+   width: 100%;
+}
+
+
+
+.section-fact p{
+
+    margin-top:20px;
+ 
+    font-size: 10px;
+    color: #999;
+
+}
 
 
 
 
 /* Fim Dados */
+
+/* Começo Social Media*/
+.section-social-media{
+
+  
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+
+}
+.section-social{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.section-social2{
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.section-social2 p{
+    margin-left: 5px;
+    margin-right:25px;
+    font-size: 10px;
+    font-weight: 800;
+    color: #999;
+}
+.section-social2 img{
+
+ position: center;
+  width: 15px;
+  
+  height: 14px;
+  
+}
+
+
+.section-social p{
+    color: #CCC;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 10px;
+ 
+}
+.social-media-div{
+    padding:20px;
+    width: 100vw;
+    border-bottom: 1px solid #ccc;
+}
+
+
+
+
+.social{
+   
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px;
+}
+
+.twitter{
+    background-color: rgba(0, 250, 250);
+ 
+}
+
+.linkedin{
+    background-color: royalblue;
+
+}
+
+.facebook{
+    background-color: blue;
+
+}
+
+.googleplus{
+    background-color: crimson;
+}
+
+.pinterest{
+    background-color: red;
+}
+/* Fim Social Media */
