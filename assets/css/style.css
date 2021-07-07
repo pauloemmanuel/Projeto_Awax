@@ -896,3 +896,93 @@ padding-top: 40px;
     background-color: red;
 }
 /* Fim Social Media */
+
+/* Começo Formulário */
+
+
+
+
+.section-form{
+width:100%;
+height: fit-content;
+
+display: flex;
+justify-content: center;
+}
+
+.section-form--formulario{
+    display: flex;
+   align-items: center;
+    width: 100%;
+    height: fit-content;
+    flex-direction: column;
+}
+
+.section-form--input{
+    width: 500px;
+    display: flex;
+  justify-content: space-between;
+
+}
+
+.section-form--input input{
+ width: 100%;
+    border: none;
+    border-bottom:2px solid #CCC;
+    background-color: transparent;
+    outline: 0;
+    line-height: 1.6rem;
+    margin-top: 20px;
+    color: black;
+    font-size: 1.2rem;
+}
+
+
+
+.section-form--input:last-child input{
+    margin-top: 50px;
+   }
+   
+
+.section-form--input-split{
+  
+    display: flex;
+    
+    justify-content: space-around;
+    flex-direction: row;
+    
+}
+
+
+::-webkit-input-placeholder{
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    color: #999;
+    font-weight: 300;
+
+}
+
+/* Fim Formulário */
+
+/* Começo Mapa */
+.section-map{
+background-image:url('../img/mapa.jpg');
+
+background-size: cover;
+background-position: center;
+padding-top:30px;
+padding-bottom: 30px;
+}
+
+.section-map--area{
+width: 100vw;
+margin:auto;
+max-width: 1140px;
+}
+.section-map--info{
+    width: 50%;
+    padding: 30px;
+    background-color: #FFF;
+    color: black;
+}
+/* Fim Mapa */
