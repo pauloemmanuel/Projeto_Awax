@@ -985,4 +985,48 @@ max-width: 1140px;
     background-color: #FFF;
     color: black;
 }
+
+.section-map--info-item{
+    display: flex;
+    align-items: center;
+    color: #555;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.section-map--info-item-img{
+    width: 40px;
+    height: auto;
+    display: inline-flex;
+    padding:10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin-right: 15px;
+  
+}
+
+.section-map--info-item-img img{
+    width: auto;
+    height: 20px;
+  
+}
+
+
 /* Fim Mapa */
+
+/* Começo Footer */
+
+footer{
+    display: flex;
+    flex-flow: row nowrap;
+
+}
+
+.section-footer{
+flex: 1;
+
+}
+
+/* Fim Footer */
+
